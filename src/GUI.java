@@ -128,22 +128,18 @@ public class GUI extends JFrame {
                     if (weatherCode == 0L) {// Clear weather
                         weatherConditionDesc.setText("Clear");
                         weatherConditionImage.setIcon(getImage("./assets/clear.png"));
-                        add(weatherConditionImage);
                     }
                     else if (weatherCode > 0L && weatherCode < 3L) {// Cloudy weather
                         weatherConditionDesc.setText("Cloudy");
                         weatherConditionImage.setIcon(getImage("./assets/cloudy.png"));
-                        add(weatherConditionImage);
                     }
                     else if ((weatherCode >= 51L && weatherCode <= 67L) || (weatherCode >= 80L && weatherCode <= 99L)) {// Rainy weather
                         weatherConditionDesc.setText("Rainy");
                         weatherConditionImage.setIcon(getImage("./assets/rain.png"));
-                        add(weatherConditionImage);
                     }
                     else if (weatherCode >= 71L && weatherCode <= 77L) {// Snowy weather
                         weatherConditionDesc.setText("Snowy");
                         weatherConditionImage.setIcon(getImage("./assets/snow.png"));
-                        add(weatherConditionImage);
                     }
                 }
             }

@@ -28,4 +28,4 @@ This is a simple weather app written in Java that provides weather data for a gi
 
 ## API
 
-- **api.open-meteo.com**: This is the API used to fetch weather data. Ensure you have the necessary API key and follow their documentation for integration.
+- **api.open-meteo.com**: This is the API used to fetch weather data.

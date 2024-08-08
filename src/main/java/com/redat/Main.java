@@ -1,0 +1,19 @@
+/**
+ * Launch the app
+ * @author Reda TARGAOUI
+ */
+package com.redat;
+
+import javax.swing.*;
+
+public class Main {
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(new Runnable(){
+            @Override
+            public void run(){
+                // Launch GUI :
+                new GUI().setVisible(true);
+            }
+        });
+    }
+}
